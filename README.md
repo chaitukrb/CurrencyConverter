@@ -6,3 +6,5 @@ we need python in our systems to run our code
 we just need to install all the respective packages and run the Main.py file
 
 This application gets the exchange rates of currencies by providing the Currency Code(eg: United States-USD,India-INR)
+
+The Currency Codes for each country is listed in curr_codes file
