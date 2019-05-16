@@ -4,7 +4,8 @@ class Convert:
 			from __init__ import data
 			a=a.upper()
 			b=b.upper()
-			if(a!='india' and b!='india'):
+			#if(a!='india' and b!='india'):
+			if(a!='INR' and b!='INR'):
 				x=data[a][1]
 				y=data[b][1]
 				return str((x/y))+' '+data[b][0]+'s',1
